@@ -24,7 +24,7 @@ namespace ProjectEulerAlgorithms.Algorithms
                     sum += i;
                 }
             }
-            return sum;
+            return number;
         }
     }
 }
