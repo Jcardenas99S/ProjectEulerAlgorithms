@@ -9,3 +9,9 @@ Console.WriteLine($"The sum of the multiples is: {result}");
 EvenFibonacciNumbers sampleTwo = new EvenFibonacciNumbers();
 result = sampleTwo.FibonacciNumbers(2);
 Console.WriteLine($"The sum of the even values in the fibonacci is: {result}");
+
+//What is the largest prime factor of the given number?
+LargestPrimeFactor sampleTree = new LargestPrimeFactor();
+long res = sampleTree.largestPrimeFactor(600851475143);
+Console.WriteLine($" The largest prime factor is: {res}");
+
