@@ -13,5 +13,10 @@ Console.WriteLine($"The sum of the even values in the fibonacci is: {result}");
 //What is the largest prime factor of the given number?
 LargestPrimeFactor sampleTree = new LargestPrimeFactor();
 long res = sampleTree.largestPrimeFactor(600851475143);
-Console.WriteLine($" The largest prime factor is: {res}");
+Console.WriteLine($"The largest prime factor is: {res}");
+
+//Find the largest palindrome made from the product of two n-digit numbers.
+LargestPalindromeProduct sampleFour = new LargestPalindromeProduct();
+result = sampleFour.largestPalindromeProduct(4);
+Console.Write(result);
 
