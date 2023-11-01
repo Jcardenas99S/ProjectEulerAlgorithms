@@ -11,5 +11,4 @@ There we have some algorithms from the project Euler on freecodecamp.
 
 - [Algorithm #3 - Largest Prime Factor](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/LargestPrimeFactor.cs) - What is the largest prime factor of the given number
 
-- [Algorithm #4 - Largest Palindrome Product](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/LargestPalindromeProduct.cs) - What is the largest prime factor of the given number
-
+- [Algorithm #4 - Largest Palindrome Product](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/LargestPalindromeProduct.cs) - Find the largest palindrome made from the product of two n-digit numbers.
