@@ -21,6 +21,6 @@
 //Console.Write($"the largest palindrome is: {result}");
 
 //What is the smallest positive number that is evenly divisible by all of the numbers from 1 to n?
-SmallestMultiple sampleFive = new SmallestMultiple();
-long res = sampleFive.smallestMultiple(20);
-Console.Write($"the smallest positive number that is evenly divisible by all of the numbers from 1 to n is: {res}");
+//SmallestMultiple sampleFive = new SmallestMultiple();
+//long res = sampleFive.smallestMultiple(20);
+//Console.Write($"the smallest positive number that is evenly divisible by all of the numbers from 1 to n is: {res}");
