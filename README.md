@@ -17,7 +17,7 @@ There we have some algorithms from the project Euler on freecodecamp.
 
 - [Algorithm #6 - Sum Square Difference](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/SumSquareDifference.cs) - Find the difference between the sum of the squares of the first n natural numbers and the square of the sum.
 
--[Algorithm #7 - 10001st Prime Number](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/10001stPrime.cs) - What is the nth prime number?
+- [Algorithm #7 - 10001st Prime Number](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/10001stPrime.cs) - What is the nth prime number?
 
 
 
