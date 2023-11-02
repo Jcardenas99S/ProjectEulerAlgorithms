@@ -24,3 +24,8 @@
 //SmallestMultiple sampleFive = new SmallestMultiple();
 //long res = sampleFive.smallestMultiple(20);
 //Console.Write($"the smallest positive number that is evenly divisible by all of the numbers from 1 to n is: {res}");
+
+//Find the difference between the sum of the squares of the first n natural numbers and the square of the sum.
+SumSquareDifference sampleSix = new SumSquareDifference();
+long res = sampleSix.sumSquareDifference(100);
+Console.Write($"the difference between the sum ofthe squares and the square of the sum is: {res}");
