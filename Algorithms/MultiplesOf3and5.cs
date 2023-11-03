@@ -11,20 +11,18 @@ namespace ProjectEulerAlgorithms.Algorithms
         public int multiplesOf3and5(int number)
         {
             int sum = 0;
-            int m3 = 0;
-            int m5 = 0;
 
             for (int i = 0; i < number; i++)
             {
-                m3 = i % 3;
-                m5 = i % 5;
+               int m3 = i % 3;
+               int m5 = i % 5;
 
                 if (m3 == 0 || m5 == 0)
                 {
                     sum += i;
                 }
             }
-            return number;
+            return sum;
         }
     }
 }
