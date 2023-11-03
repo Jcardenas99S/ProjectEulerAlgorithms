@@ -9,12 +9,12 @@ namespace ProjectEulerAlgorithms.Algorithms
     public class EvenFibonacciNumbers
     {
 
-        public int FibonacciNumbers(int number)
+        public long FibonacciNumbers(long number)
         {
-            int sum = 1;
-            int i =0;
-            int sumEvenNumbers = 0;
-            List<int> fibonacci = new List<int>();
+            long sum = 1;
+            long i =0;
+            long sumEvenNumbers = 0;
+            List<long> fibonacci = new List<long>();
 
             while (sum <= number)
             {      
