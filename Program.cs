@@ -31,6 +31,11 @@
 //Console.Write($"the difference between the sum ofthe squares and the square of the sum is: {res}");
 
 //What is the nth prime number?
-_10001stPrime sampleSeven = new _10001stPrime();
-long res = sampleSeven.nthPrime(10001);
-Console.Write($"the prime number n is: {res}");
+//_10001stPrime sampleSeven = new _10001stPrime();
+//long res = sampleSeven.nthPrime(10001);
+//Console.Write($"the prime number n is: {res}");
+
+//Find the n adjacent digits in the 1000-digit number that have the greatest product. What is the value of this product
+LargestProductInSeries sampleEight = new LargestProductInSeries();
+long res = sampleEight.largestProductInSeries(13);
+Console.Write($"the max product of the series n is: {res}");
