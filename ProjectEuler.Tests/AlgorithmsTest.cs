@@ -202,5 +202,27 @@ namespace ProjectEuler.Tests
             Assert.IsTrue(Numbers.ElementAt(test).Value.Equals(result), string.Format($"Expected {Numbers.ElementAt(test).Value}, Actual: {result}"));
 
         }
+
+        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(2)]
+        [TestMethod]
+        public void ProjectEulerAlgorithms_SpecialPythagoreanTriplet_ReturnInt(int test)
+        {
+            //Arrange
+            IDictionary<long, long> Numbers = new Dictionary<long, long>()
+            {
+                {24,   480},
+                {120,  49920},
+                {1000, 31875000}
+            };
+            SpecialPythagoreanTriplet sample = new SpecialPythagoreanTriplet();
+
+            //Act
+            long result = sample.specialPythagoreanTriplet(Numbers.ElementAt(test).Key);
+            //Assert
+            Assert.IsTrue(Numbers.ElementAt(test).Value.Equals(result) || result.Equals(60000) || result.Equals(55080), string.Format($"Expected {Numbers.ElementAt(test).Value}, Actual: {result}"));
+           
+        }
     }
 }
