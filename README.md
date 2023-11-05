@@ -21,6 +21,8 @@ There we have some algorithms from the project Euler on freecodecamp.
   
 - [Algorithm #8 - Largest Product in Series](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/LargestProductInSeries.cs) - Find the n adjacent digits in the 1000-digit number that have the greatest product. What is the value of this product
 
+- [Algorithm #p - Special Pythagorian Triplet](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/SpecialPythagoreanTriplet.cs) - There exists exactly one Pythagorean triplet for which a + b + c = 1000. Find the product abc such that a + b + c = n.
+
 
 
 
