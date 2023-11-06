@@ -224,5 +224,29 @@ namespace ProjectEuler.Tests
             Assert.IsTrue(Numbers.ElementAt(test).Value.Equals(result) || result.Equals(60000) || result.Equals(55080), string.Format($"Expected {Numbers.ElementAt(test).Value}, Actual: {result}"));
            
         }
+
+        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(2)]
+        [DataRow(3)]
+        [TestMethod]
+        public void ProjectEulerAlgorithms_SummationOfPrimes_ReturnInt(int test)
+        {
+            //Arrange
+            IDictionary<long, long> Numbers = new Dictionary<long, long>()
+            {
+                {17,   41},
+                {2001,  277050},
+                {140759, 873608362},
+                {2000000, 142913828922}
+            };
+            SummationOfPrimes sample = new SummationOfPrimes();
+
+            //Act
+            long result = sample.primeSumation(Numbers.ElementAt(test).Key);
+            //Assert
+            Assert.IsTrue(Numbers.ElementAt(test).Value.Equals(result), string.Format($"Expected {Numbers.ElementAt(test).Value}, Actual: {result}"));
+
+        }
     }
 }
