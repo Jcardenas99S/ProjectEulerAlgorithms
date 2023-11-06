@@ -23,6 +23,8 @@ There we have some algorithms from the project Euler on freecodecamp.
 
 - [Algorithm #9 - Special Pythagorian Triplet](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/SpecialPythagoreanTriplet.cs) - There exists exactly one Pythagorean triplet for which a + b + c = 1000. Find the product abc such that a + b + c = n.
 
+- [Algorithm #10 - Summation of Primes](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/SummationOfPrimes.cs) - Find the sum of all the primes below n.
+
 
 
 
