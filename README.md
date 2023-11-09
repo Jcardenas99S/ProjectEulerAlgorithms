@@ -27,6 +27,8 @@ There we have some algorithms from the project Euler on freecodecamp.
 
 - [Algorithm #11 - Largest Product Grid](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/LargestProductGrid.cs) - What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in a given arr grid?
 
+- [Algorithm #12 - Highly Divisible Triangular Number](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/HighlyDivisibleTriangularNumber.cs) - What is the value of the first triangle number to have over n divisors?
+
 
 
 
