@@ -25,6 +25,8 @@ There we have some algorithms from the project Euler on freecodecamp.
 
 - [Algorithm #10 - Summation of Primes](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/SummationOfPrimes.cs) - Find the sum of all the primes below n.
 
+- [Algorithm #11 - Largest Product Grid](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/LargestProductGrid.cs) - What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in a given arr grid?
+
 
 
 
