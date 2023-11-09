@@ -307,9 +307,33 @@ namespace ProjectEuler.Tests
 
             
         }
-                  
 
 
+        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(2)]
+        [DataRow(3)]
+        [DataRow(4)]
+        [TestMethod]
+        public void ProjectEulerAlgorithms_HighlyDivisibleTriangularNumber_ReturnInt(int test)
+        {
+            //Arrange
+            IDictionary<long, long> Numbers = new Dictionary<long, long>()
+            {
+                {5,   28},
+                {23,  630},
+                {167, 1385280},
+                {374, 17907120},
+                {500, 76576500}
+            };
+            HighlyDivisibleTriangularNumber sample = new HighlyDivisibleTriangularNumber();
+
+            //Act
+            long result = sample.higlhyDivisibleTriangularNumber(Numbers.ElementAt(test).Key);
+            //Assert
+            Assert.IsTrue(Numbers.ElementAt(test).Value.Equals(result), string.Format($"Expected: {Numbers.ElementAt(test).Value}, Actual: {result}"));
+
+        }
 
 
     }
