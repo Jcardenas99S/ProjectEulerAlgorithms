@@ -256,7 +256,6 @@ namespace ProjectEuler.Tests
         public void ProjectEulerAlgorithms_LargestGridProduct_ReturLong(int test)
         {
             //Arrange
-            int[] testResults = new int[] {14169081, 70600674};
             int[,] testGrid = {
                            {40, 17, 81, 18, 57},
                            {74, 4, 36, 16, 29},
@@ -287,25 +286,16 @@ namespace ProjectEuler.Tests
                             {20, 73, 35, 29, 78, 31, 90, 1, 74, 31, 49, 71, 48, 86, 81, 16, 23, 57, 5, 54},
                             {1, 70, 54, 71, 83, 51, 54, 69, 16, 92, 33, 48, 61, 43, 52, 1, 89, 19, 67, 48}
                             };
-
-
-            LargestProductGrid sample = new LargestProductGrid();
-            long result = 0;
+            IDictionary<int[,], long> Numbers = new Dictionary<int[,], long>()
+            {
+                {testGrid,  14169081},
+                {Grid,  70600674},
+            };
             //Act
-            if (test == 0)
-            {
-                 result = sample.largestProductGrid(testGrid);
-                //Assert
-                Assert.IsTrue(result == testResults[0], string.Format($"the result is: {result}, expected: {testResults[0]}"));
-            }
-            if (test == 1)
-            {
-                 result = sample.largestProductGrid(Grid);
-                //Assert
-                Assert.IsTrue(result == testResults[1], string.Format($"the result is: {result}, expected: {testResults[1]}"));
-            }
-
-            
+            LargestProductGrid sample = new LargestProductGrid();
+            long result = sample.largestProductGrid(Numbers.ElementAt(test).Key);
+            //Assert
+            Assert.IsTrue(Numbers.ElementAt(test).Value.Equals(result), string.Format($"Expected {Numbers.ElementAt(test).Value}, Actual: {result}"));
         }
 
 

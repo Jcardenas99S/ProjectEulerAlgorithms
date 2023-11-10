@@ -47,10 +47,6 @@ namespace ProjectEulerAlgorithms.Algorithms
                         if (product > maxProduct) maxProduct = product;
                     }
 
-
-
-
-
                 }
             }
            
