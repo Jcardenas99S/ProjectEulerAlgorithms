@@ -17,9 +17,7 @@ namespace ProjectEulerAlgorithms.Algorithms
             int count = 0;
             while (!found)
             {
-
                 trianNumber += n;
-
                 for (int i=1; i < Math.Sqrt(trianNumber); i++)
                 {
                     if(trianNumber % i == 0)
@@ -29,13 +27,11 @@ namespace ProjectEulerAlgorithms.Algorithms
                         {
                             found = true;
                             break;
-                        }
-     
+                        }   
                     }
                 }
                 if (!found) count = 0;
-                n++;
-               
+                n++;           
             }
 
             return trianNumber;
