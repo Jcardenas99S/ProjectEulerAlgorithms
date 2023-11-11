@@ -10,7 +10,9 @@ namespace ProjectEulerAlgorithms.Algorithms
     public class LargestPalindromeProduct
     {
 
-
+        /*
+            Find the largest palindrome made from the product of two n-digit numbers.
+         */
         public int largestPalindromeProduct(int n)
         {
             int n1 = 1;

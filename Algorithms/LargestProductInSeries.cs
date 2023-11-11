@@ -8,6 +8,10 @@ namespace ProjectEulerAlgorithms.Algorithms
 {
     public class LargestProductInSeries
     {
+        /*
+            Find the n adjacent digits in the 1000-digit number that have the greatest product.
+            What is the value of this product?
+         */
         public long largestProductInSeries(long n)
         {
             long num = 0;

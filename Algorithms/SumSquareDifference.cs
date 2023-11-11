@@ -8,6 +8,9 @@ namespace ProjectEulerAlgorithms.Algorithms
 {
     public class SumSquareDifference
     {
+        /*
+            Find the difference between the sum of the squares of the first n natural numbers and the square of the sum.
+         */
         public long sumSquareDifference(long num)
         {
             long n = 0;

@@ -9,7 +9,9 @@ namespace ProjectEulerAlgorithms.Algorithms
 {
     public class SmallestMultiple
     {
-       
+        /*
+             What is the smallest positive number that is evenly divisible by all of the numbers from 1 to n
+         */
         public long smallestMultiple(long num) 
         {
             int sn = 0;

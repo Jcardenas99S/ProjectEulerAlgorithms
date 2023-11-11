@@ -8,6 +8,9 @@ namespace ProjectEulerAlgorithms.Algorithms
 {
     public class _10001stPrime
     {
+        /*
+            What is the nth prime number?
+         */
         public long nthPrime(long num)
         {
             long n = 2;

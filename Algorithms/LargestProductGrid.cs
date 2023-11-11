@@ -9,6 +9,10 @@ namespace ProjectEulerAlgorithms.Algorithms
 {
     public class LargestProductGrid
     {
+        /*
+            What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) 
+            in a given arr grid?
+         */
         public long largestProductGrid(int[,] testGrid)
         {
             var product = 0;

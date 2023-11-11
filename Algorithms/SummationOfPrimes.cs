@@ -8,6 +8,9 @@ namespace ProjectEulerAlgorithms.Algorithms
 {
     public class SummationOfPrimes
     {
+        /*
+            Find the sum of all the primes below n.
+         */
         public long primeSumation(long num)
         {
             long n = 2;

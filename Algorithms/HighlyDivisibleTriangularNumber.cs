@@ -9,6 +9,9 @@ namespace ProjectEulerAlgorithms.Algorithms
 {
     public class HighlyDivisibleTriangularNumber
     {
+        /*
+             What is the value of the first triangle number to have over n divisors?
+         */
         public long higlhyDivisibleTriangularNumber(long divisible)
         {
             bool found = false;
