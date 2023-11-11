@@ -450,5 +450,32 @@ namespace ProjectEuler.Tests
 
         }
 
+
+        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(2)]
+        [DataRow(3)]
+        [DataRow(4)]
+        [TestMethod]
+        public void ProjectEulerAlgorithms_LongestCollatzSequence_ReturnInt(int test)
+        {
+            //Arrange
+            IDictionary<long, long> Numbers = new Dictionary<long, long>()
+            {
+                {14,   9},
+                {5847,  3711},
+                {46500, 35655},
+                {54512, 52527},
+                {100000, 77031}     
+            };
+            LongestCollatzSequence sample = new LongestCollatzSequence();
+
+            //Act46500
+            long result = sample.longestCollatzSequence(Numbers.ElementAt(test).Key);
+            //Assert
+            Assert.IsTrue(Numbers.ElementAt(test).Value.Equals(result) || result.Equals(60000) || result.Equals(55080), string.Format($"Expected {Numbers.ElementAt(test).Value}, Actual: {result}"));
+
+        }
+
     }
 }

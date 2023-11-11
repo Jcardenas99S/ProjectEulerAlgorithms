@@ -31,6 +31,8 @@ There we have some algorithms from the project Euler on freecodecamp.
 
 - [Algorithm #13 - Largest Sum](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/LargeSum.cs) - Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.
 
+- [Algorithm #14 - Longest Collatz Sequence](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/LongestCollatzSequence.cs) - Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.
+
 
 
 
