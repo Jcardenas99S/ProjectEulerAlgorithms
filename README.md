@@ -29,6 +29,8 @@ There we have some algorithms from the project Euler on freecodecamp.
 
 - [Algorithm #12 - Highly Divisible Triangular Number](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/HighlyDivisibleTriangularNumber.cs) - What is the value of the first triangle number to have over n divisors?
 
+- [Algorithm #13 - Largest Sum](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/LargeSum.cs) - Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.
+
 
 
 

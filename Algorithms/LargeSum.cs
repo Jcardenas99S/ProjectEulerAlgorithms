@@ -12,10 +12,12 @@ namespace ProjectEulerAlgorithms.Algorithms
     {
         public long largeSum(string[] testNums)
         {
-            var sum = 0L;
-            foreach(string item in testNums)
+            
+            BigInteger sum = 0;
+            
+            foreach(string num in testNums)
             {
-                sum += Convert.ToInt64(item);
+                sum += BigInteger.Parse(num);
             }
             string sumString = sum.ToString();
             string sumStringReplace = sumString.Replace('.', ' ').Replace(',', ' ').Substring(0, 10);
