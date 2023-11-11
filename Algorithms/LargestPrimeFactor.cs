@@ -8,6 +8,9 @@ namespace ProjectEulerAlgorithms.Algorithms
 {
     public class LargestPrimeFactor
     {
+        /*
+            What is the largest prime factor of the given number
+        */
         public long largestPrimeFactor(long n)
         {
             long maxPrimeFactor = 2;
