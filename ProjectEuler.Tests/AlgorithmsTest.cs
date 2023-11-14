@@ -1,4 +1,5 @@
 using ProjectEulerAlgorithms.Algorithms;
+using System.Numerics;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace ProjectEuler.Tests
@@ -473,7 +474,29 @@ namespace ProjectEuler.Tests
             //Act46500
             long result = sample.longestCollatzSequence(Numbers.ElementAt(test).Key);
             //Assert
-            Assert.IsTrue(Numbers.ElementAt(test).Value.Equals(result) || result.Equals(60000) || result.Equals(55080), string.Format($"Expected {Numbers.ElementAt(test).Value}, Actual: {result}"));
+            Assert.IsTrue(Numbers.ElementAt(test).Value.Equals(result), string.Format($"Expected {Numbers.ElementAt(test).Value}, Actual: {result}"));
+
+        }
+
+        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(2)]
+        [TestMethod]
+        public void ProjectEulerAlgorithms_LatticePaths_ReturnLong(int test)
+        {
+            //Arrange
+            IDictionary<long, BigInteger> Numbers = new Dictionary<long, BigInteger>()
+            {
+                {4,   70},
+                {9,  48620},
+                {20, 137846528820}
+            };
+            LatticePaths sample = new LatticePaths();
+
+            //Act46500
+            BigInteger result = sample.latticePaths(Numbers.ElementAt(test).Key);
+            //Assert
+            Assert.IsTrue(Numbers.ElementAt(test).Value.Equals(result), string.Format($"Expected {Numbers.ElementAt(test).Value}, Actual: {result}"));
 
         }
 

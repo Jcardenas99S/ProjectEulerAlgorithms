@@ -33,6 +33,8 @@ There we have some algorithms resolved on c# from the project Euler on freecodec
 
 - [Algorithm #14 - Longest Collatz Sequence](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/LongestCollatzSequence.cs)
 
+- [Algorithm #15 -  Lattice Paths](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/LatticePaths.cs)
+
 
 
 
