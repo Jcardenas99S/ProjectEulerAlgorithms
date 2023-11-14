@@ -35,6 +35,8 @@ There we have some algorithms resolved on c# from the project Euler on freecodec
 
 - [Algorithm #15 -  Lattice Paths](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/LatticePaths.cs)
 
+- [Algorithm #16 -  Power Digit Sum](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/PowerDigitSum.cs)
+
 
 
 

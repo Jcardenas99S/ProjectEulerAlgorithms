@@ -500,5 +500,27 @@ namespace ProjectEuler.Tests
 
         }
 
+        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(2)]
+        [TestMethod]
+        public void ProjectEulerAlgorithms_PowerDigitSum_ReturnInt(int test)
+        {
+            //Arrange
+            IDictionary<int, double> Numbers = new Dictionary<int, double>()
+            {
+                {15,   26},
+                {128,  166},
+                {1000, 1366}
+            };
+            PowerDigitSum sample = new PowerDigitSum();
+
+            //Act46500
+            double result = sample.powerDigitSum(Numbers.ElementAt(test).Key);
+            //Assert
+            Assert.IsTrue(Numbers.ElementAt(test).Value.Equals(result), string.Format($"Expected {Numbers.ElementAt(test).Value}, Actual: {result}"));
+
+        }
+
     }
 }

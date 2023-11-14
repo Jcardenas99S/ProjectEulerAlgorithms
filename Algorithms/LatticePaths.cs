@@ -18,7 +18,7 @@ namespace ProjectEulerAlgorithms.Algorithms
          */
         public BigInteger latticePaths(BigInteger rows)
         {
-            // (2N)!/(N!)^2 - probabilities of the number o paths
+            // (2N)!/(N!)^2 - probabilities of the number of paths
             BigInteger num = (factorial(2*rows));
             BigInteger dom = factorial(rows)* factorial(rows);
            
