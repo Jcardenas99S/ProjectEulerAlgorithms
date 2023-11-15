@@ -522,5 +522,27 @@ namespace ProjectEuler.Tests
 
         }
 
+        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(2)]
+        [TestMethod]
+        public void ProjectEulerAlgorithms_NumberLetterCounts_ReturnInt(int test)
+        {
+            //Arrange
+            IDictionary<int, int> Numbers = new Dictionary<int, int>()
+            {
+                {5,   19},
+                {150,  1903},
+                {1000, 21124}
+            };
+            NumberLetterCounts sample = new NumberLetterCounts();
+
+            //Act46500
+            int result = sample.numberLetterCounts(Numbers.ElementAt(test).Key);
+            //Assert
+            Assert.IsTrue(Numbers.ElementAt(test).Value.Equals(result), string.Format($"Expected {Numbers.ElementAt(test).Value}, Actual: {result}"));
+
+        }
+
     }
 }
