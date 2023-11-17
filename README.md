@@ -39,6 +39,8 @@ There we have some algorithms resolved on c# from the project Euler on freecodec
 
 - [Algorithm #17 - Number Letter Counts](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/NumberLetterCounts.cs)
 
+- [Algorithm #18 - Maximum path sum I](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/MaximumPathSumI.cs)
+
 
 
 
