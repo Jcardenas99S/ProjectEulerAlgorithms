@@ -591,5 +591,29 @@ namespace ProjectEuler.Tests
 
         }
 
+        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(2)]
+        [TestMethod]
+        public void ProjectEulerAlgorithms_CountingSundays_ReturnInt(int test)
+        {
+            //Arrange
+            int[] lastYears = { 1946, 2000, 2000};
+            IDictionary<int, int> firstYears = new Dictionary<int, int>()
+            {
+                {1943,   6},
+                {1995,  10},
+                {1901, 171}
+            };
+
+            CountingSundays sample = new CountingSundays();
+
+            //Act
+            int result = sample.countingSundays(firstYears.ElementAt(test).Key, lastYears[test]);
+            //Assert
+            Assert.IsTrue(firstYears.ElementAt(test).Value.Equals(result), string.Format($"Expected {firstYears.ElementAt(test).Value}, Actual: {result}"));
+
+        }
+
     }
 }

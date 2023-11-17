@@ -41,6 +41,8 @@ There we have some algorithms resolved on c# from the project Euler on freecodec
 
 - [Algorithm #18 - Maximum path sum I](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/MaximumPathSumI.cs)
 
+- [Algorithm #19 - Counting Sundays](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/CountingSundays.cs)
+
 
 
 
