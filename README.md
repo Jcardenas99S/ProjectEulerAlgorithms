@@ -43,6 +43,8 @@ There we have some algorithms resolved on c# from the project Euler on freecodec
 
 - [Algorithm #19 - Counting Sundays](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/CountingSundays.cs)
 
+- [Algorithm #20 - Factorial Digit Sum](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/FactorialDigitSum.cs)
+
 
 
 

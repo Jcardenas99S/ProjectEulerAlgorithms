@@ -615,5 +615,32 @@ namespace ProjectEuler.Tests
 
         }
 
+        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(2)]
+        [DataRow(3)]
+        [DataRow(4)]
+        [TestMethod]
+        public void ProjectEulerAlgorithms_FactorialDigitSum_ReturnInt(int test)
+        {
+            //Arrange           
+            IDictionary<int, int> numbers = new Dictionary<int, int>()
+            {
+                {10,   27},
+                {25,   72},
+                {50,  216},
+                {75,  432},
+                {100, 648},
+            };
+
+            FactorialDigitSum sample = new FactorialDigitSum();
+
+            //Act
+            int result = sample.factorialDigitSum(numbers.ElementAt(test).Key);
+            //Assert
+            Assert.IsTrue(numbers.ElementAt(test).Value.Equals(result), string.Format($"Expected {numbers.ElementAt(test).Value}, Actual: {result}"));
+
+        }
+
     }
 }
