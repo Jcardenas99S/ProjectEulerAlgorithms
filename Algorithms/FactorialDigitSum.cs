@@ -30,17 +30,22 @@ namespace ProjectEulerAlgorithms.Algorithms
             }
             return sum;
         }
+        //public static BigInteger factorial(int n)
+        //{
+        //    BigInteger resp = 1;
+        //    for (BigInteger i = 1; i <= n; i++)
+        //    {
+        //        resp *= i;
+        //    }
+
+        //    return resp;
+        //}
+
         public static BigInteger factorial(int n)
         {
-            BigInteger resp = 1;
-            for (BigInteger i = 1; i <= n; i++)
-            {
-                resp *= i;
-            }
-
-            return resp;
+            if (n <= 1) return n;
+            return n * factorial(n-1);
         }
-
 
     }
 }

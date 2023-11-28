@@ -43,7 +43,7 @@ namespace ProjectEulerAlgorithms.Algorithms
         */
         public long maximumPathSumI(int[,] triangle)
         {
-            int sum = 0;
+ 
             int[,] maxSum = triangle;
             for (int i=triangle.GetLength(0)  -  2; i >= 0; i--)
             {
