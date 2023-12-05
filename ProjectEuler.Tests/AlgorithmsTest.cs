@@ -642,5 +642,30 @@ namespace ProjectEuler.Tests
 
         }
 
+        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(2)]
+        [DataRow(3)]
+        [TestMethod]
+        public void ProjectEulerAlgorithms_AmicableNumbersSum_ReturnInt(int test)
+        {
+            //Arrange           
+            IDictionary<int, int> numbers = new Dictionary<int, int>()
+            {
+                {1000,  504},
+                {2000,  2898},
+                {5000,  8442},
+                {10000, 31626},
+            };
+
+            AmicableNumbers sample = new AmicableNumbers();
+
+            //Act
+            int result = sample.amicableNumbersSum(numbers.ElementAt(test).Key);
+            //Assert
+            Assert.IsTrue(numbers.ElementAt(test).Value.Equals(result), string.Format($"Expected {numbers.ElementAt(test).Value}, Actual: {result}"));
+
+        }
+
     }
 }

@@ -45,6 +45,8 @@ There we have some algorithms resolved on c# from the project Euler on freecodec
 
 - [Algorithm #20 - Factorial Digit Sum](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/FactorialDigitSum.cs)
 
+- [Algorithm #21 - Amicable Numbers](https://github.com/Jcardenas99S/ProjectEulerAlgorithms/blob/master/Algorithms/AmicableNumbers.cs)
+
 
 
 
