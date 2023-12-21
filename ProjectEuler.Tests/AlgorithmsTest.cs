@@ -667,5 +667,27 @@ namespace ProjectEuler.Tests
 
         }
 
+        [DataRow(0)]
+        [DataRow(1)]
+        [TestMethod]
+        public void ProjectEulerAlgorithms_NamesScores_ReturnInt(int test)
+        {
+            string[] test1 = { "THIS", "IS", "ONLY", "A", "TEST" };
+            string[] test2 = { "I", "REPEAT", "THIS", "IS", "ONLY", "A", "TEST" };
+            //Arrange           
+            IDictionary<string[], int> numbers = new Dictionary<string[], int>()
+            {
+                {test1,  791},
+                {test2,  1468},
+            };
+
+            NamesScores sample = new NamesScores();
+
+            //Act
+            int result = sample.namesScores(numbers.ElementAt(test).Key);
+            //Assert
+            Assert.IsTrue(numbers.ElementAt(test).Value.Equals(result), string.Format($"Expected {numbers.ElementAt(test).Value}, Actual: {result}"));
+
+        }
     }
 }
